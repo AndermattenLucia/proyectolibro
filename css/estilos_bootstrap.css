@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*configuracion de variables*/
+:root{
+    --main-color: #f3f3f3;
+    --secondary-color: #161516;
+    --third-color: #ae7ad1;
+    --third-color-t: #24e0d7bc;
+    --grosor-negrita :bold;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: var(--secondary-color);
+    color: var(--main-color);
+}
+
+.bgBordo{
+    background-color: var(--main-color);
+}
+header, footer{
+    height: 15vh;
+    nav{
+        height: 100%;
+    }
+}
+@media screen and (max-width:575px){
+    header, footer{
+        height: initial;
+        nav{
+            height: 100%;
+        }
+    }
+}
+
+/*estilos del detalle*/
+.sinLista{
+    list-style: none;
+}
+
+.botonFlecha{
+    bottom:20px;
+    right: 20px;
+}
+
