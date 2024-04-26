@@ -238,10 +238,13 @@ header,footer{
           
         }
     }
+}
     .flechaArriba{
         position:fixed;
         bottom: 20px;
         right: 20px;
     }
-}
 
+.link:hover{
+    text-decoration: underline;
+}
