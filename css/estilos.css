@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
 }
 /*configuracion de variables*/
 :root{
@@ -247,4 +247,20 @@ header,footer{
 
 .link:hover{
     text-decoration: underline;
+}
+
+.bodyfondo{
+    background-image: url(../assets/img/banner77.jpg);
+    background-repeat: repeat;
+    background-attachment:fixed;
+    background-size: 40% 100%;
+    color: #FFFFFF;
+}
+
+.titulopag, .textoCheck {
+    color: var(--secondary-color)
+}
+
+.btn-pink{
+    color:pink;
 }
